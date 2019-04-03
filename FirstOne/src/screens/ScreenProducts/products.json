@@ -1,0 +1,28 @@
+{
+    "products":[
+        {
+            "id":1,
+            "title":"PRUwealth",
+            "posc":"asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdadasd",
+            "url":"../../assets/images/tab_home.png"
+        },
+        {
+            "id":2,
+            "title":"PRUwith you",
+            "posc":"asdasdasd",
+            "url":"http://resizing.flixster.com/DeLpPTAwX3O2LszOpeaMHjbzuAw=/53x77/dkpu1ddg7pbsk.cloudfront.net/movie/11/16/47/11164719_ori.jpg"
+        },
+        {
+            "id":3,
+            "title":"PRUwealth gain",
+            "posc":"asdasdasd",
+            "url":"http://resizing.flixster.com/DeLpPTAwX3O2LszOpeaMHjbzuAw=/53x77/dkpu1ddg7pbsk.cloudfront.net/movie/11/16/47/11164719_ori.jpg"
+        },
+        {
+            "id":4,
+            "title":"PRUsmart gain",
+            "posc":"asdasdasd",
+            "url":"http://resizing.flixster.com/DeLpPTAwX3O2LszOpeaMHjbzuAw=/53x77/dkpu1ddg7pbsk.cloudfront.net/movie/11/16/47/11164719_ori.jpg"
+        }
+    ]
+}

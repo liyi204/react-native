@@ -1,0 +1,36 @@
+{
+  "name": "TestApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "bundle-ios": "react-native bundle --entry-file index.js --platform ios --dev false --bundle-output ./ios/bundle/index.ios.jsbundle --assets-dest ./ios/bundle",
+    "bundle-android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/"
+  },
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-native": "0.58.4",
+    "react-native-splash-screen": "^3.0.6",
+    "react-navigation": "^3.2.3",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-persist": "^5.7.2"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "babel-preset-react-native": "^4.0.1",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "^16.8.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
